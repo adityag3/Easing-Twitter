@@ -1,3 +1,7 @@
+# Created by Aditya Govil
+# github username : adityag3
+# website : https://adityagovil.co
+
 from tweepy import Stream, OAuthHandler
 from tweepy.streaming import StreamListener
 import time
