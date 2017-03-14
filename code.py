@@ -7,8 +7,8 @@ from tweepy.streaming import StreamListener
 import time
 import tweepy
 
-ckey = "JiMJeyvleEz4lQvuWywMFgME9U" #Dummy key
-csecret = "B488MOxbEdcqXAaJZB3caTK5W2i8QxxWYZYI5wWiRcgiFPYkS9N" #Dummy consumer secret
+ckey = "Rgo8vXnDEOvctSWnTWFwMLii9j" #Dummy key
+csecret = "MadEaCClFHM0m8WHCmzvAL55ZtMBOayXU6MfrCHQxiGfr0U8w96" #Dummy consumer secret
 atoken = "546688389-xrYORiZdYqp8BNs2venEOmUt48d5Ya5CBAcOATJ9r" #Dummy access token
 asecret = "Jlq4gjOGJv2r1stGmxdUEqAwYHzjTWzmV2edisGf7hcV9e" #Dummy access secret
 
@@ -38,7 +38,7 @@ class listener( StreamListener ):
 auth = OAuthHandler( ckey, csecret )
 auth.set_access_token( atoken, asecret )
 twitterStream = Stream( auth, listener() )
-twitterStream.filter( track= ['car'] )
+twitterStream.filter( track= ['Modi'] )
 
 '''
 api = tweepy.API(auth)
